@@ -1,0 +1,81 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#app {
+ height: 90vh;
+  margin-top: 2rem;
+  background-image: url('/public//tablebackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding:1rem 0rem;
+  overflow: hidden;
+  
+
+
+}
+
+#book {
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid orange; */
+}
+
+.my-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #e0c9a6;
+  padding: 1.5rem;
+
+}
+
+#cover-page,
+#last-cover-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #8da683;
+  border: 2px solid rgb(29, 33, 32);
+
+}
+
+#cover-page
+
+>h1 {
+  font-size: 1.6rem;
+  margin-inline: auto;
+  color: rgb(11, 49, 52);
+}
+
+#last-cover-page>h1 {
+  font-size: 1.6rem;
+  margin-inline: auto;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.taj-mahal {
+  background-color: #f0f8ff;
+}
